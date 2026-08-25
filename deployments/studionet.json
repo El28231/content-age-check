@@ -1,0 +1,36 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "test_owner": "El28231",
+  "wallet_address": "0x1D201e53BeFC2955750313F5653006ba2F82d073",
+  "contract_address": "0xfEa37d57026b608D663F008b1745cA03c22BcAEe",
+  "transaction_hash": "0xb5727f0fdf1e356fd06a68abce114f2c357aafc6fd86eeb7b7d7a65db908fca3",
+  "deployment": {
+    "final_status": "FINALIZED",
+    "execution_result": "SUCCESS"
+  },
+  "live_write": {
+    "transaction_hash": "0x46b9dce1e62d12989ef6e64a61334e6c7791a40b7b4e5ea32effd7676d3da1f0",
+    "final_status": "FINALIZED",
+    "execution_result": "SUCCESS",
+    "observed_result": "TEEN"
+  },
+  "verification": {
+    "verified_on": "2026-08-25",
+    "live_nondeterministic_write": true,
+    "persisted_state_read": true,
+    "abi_policy_read": true,
+    "execution_success_asserted": true,
+    "wallet_owner_isolated": true
+  },
+  "source": {
+    "path": "contracts/content_age_check.py",
+    "sha256": "bccad8aaafbf0469b7611558440ecebc53b480d95f7973a17b0ac3730b2db001",
+    "genvm_runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6"
+  },
+  "tooling": {
+    "genvm_linter": "0.11.0",
+    "genlayer_test": "0.29.2"
+  }
+}
